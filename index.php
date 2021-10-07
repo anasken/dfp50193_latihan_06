@@ -7,7 +7,7 @@
     <title>Kedai Baju</title>
 </head>
 <body>
-<h1>Jadual Darab</h1>
+<h1>Kedai baju</h1>
     <table>
         <?php
         $baju = 78;
