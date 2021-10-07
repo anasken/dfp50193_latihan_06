@@ -11,21 +11,13 @@
 <body>
     <h1>Kedai baju</h1>
         <?php
+        $helai = 0;
         $baju = 78;
-        $duit = 250;
-        for ($baju = 0; $duit < 78; $baju++) {
-            $hasil = $duit - $baju;
-            $duit -= $baju;
-        ?>
-            <tr>
-                <td><?php echo $duit ?></td>
-                <td>-</td>
-                <td><?php echo $baju ?></td>
-                <td>=</td>
-                <td><?php echo $hasil ?></td>
-            </tr>
-        <?php
+        for ($duit = 250; $duit > $baju; $duit -= $baju) {
+            $helai++;
+        
         }
+        echo "$helai helai baju. baki duit = $duit";
         ?>
 </body>
 
