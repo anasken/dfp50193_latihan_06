@@ -10,7 +10,6 @@
 
 <body>
     <h1>Kedai baju</h1>
-    <table>
         <?php
         $baju = 78;
         $duit = 250;
@@ -28,7 +27,6 @@
         <?php
         }
         ?>
-    </table>
 </body>
 
 </html>
